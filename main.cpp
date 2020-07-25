@@ -117,8 +117,6 @@ void writePos(int pos[10*10])
   int i;
   char ch;
 
-//   printf("Hello AMELIA and ALYONA. Play the game? \n\n");
-
    printf("   %c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c\n",-55, -51,-51, -51, -53, -51, -51, -51, -53, -51,-51, -51, -53, -51, -51, -51, -53, -51, -51, -51, -53, -51, -51, -51, -53, -51, -51, -51, -53, -51, -51, -51, -69);//нарисовали верх доски
      for (i=11; i<=88; i++){
         switch (i) {
@@ -341,7 +339,6 @@ void Search (Parg arg)
 
 }//function
 
-//пример первого вызова
 /****************************/
 int main()
 {
